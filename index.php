@@ -71,7 +71,7 @@
 </head>
 <?php
 //**指定默认生成默认网站地址请填入""之间
-$t = "https://zhaoshuai.me";
+$t = "https://mitu.best";
 if (isset($_POST["submit"])) {
     $t = htmlspecialchars($_POST['url'], ENT_QUOTES);
 }
